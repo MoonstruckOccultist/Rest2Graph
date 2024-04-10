@@ -26,7 +26,7 @@ const startApolloServer = async () => {
 
   // server.applyMiddleware({ app, path: '/graphql' });
 
-  app.use(routes);
+  // app.use(routes);
 
   // if we're in production, serve client/build as static assets
   if (process.env.NODE_ENV === 'production') {
